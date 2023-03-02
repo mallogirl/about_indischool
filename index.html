@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="[all about 인디스쿨]" />
+        <meta property="og:description" content="안녕하세요 인디스쿨입니다🙂" />
+        <meta property="og:image" content="indi_logo.png" />
+        <title>all about 인디스쿨</title>
+        <style>
+                @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+                * {
+                    font-family: "Pretendard",serif;
+                }
+
+            body {
+                    background-color: white;
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100%;
+
+                border: 2px solid #0078ff;
+
+                background-image: url('indi_logo.png');
+                background-position: center;
+                background-size: cover;
+            }
+
+            .main {
+                color: black;
+                font-size: 20px;
+
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+
+            .sub {
+                color: black;
+                font-size: 14px;
+
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+
+            .wrap{
+                width: auto;
+                margin: 30px auto 0px auto;
+                
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .wrap>a {
+                width: 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                font-size: 15px;
+                font-weight: bold;
+                color: black;
+
+                text-decoration: none;
+                box-shadow: 3px 3px 5px 0px #0078ff;
+            }
+
+            .wrap>a:hover {
+                background-color: #f2f2f2;
+                font-size: 17px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main"> 초등교사 커뮤니티 인디스쿨 </h1>
+            <p class="sub"> 인디스쿨이 궁금하다면? 아래 링크 딸깍 클릭! </p>
+            <a target="_blank" href="https://indischool.com/">인디스쿨 홈페이지</a>
+            <a target="_blank" href="https://brunch.co.kr/@indischool">인디스쿨 브런치</a>
+            <a target="_blank" href="https://indischool.notion.site/2022_4-e2e4a3c315ac41bb84b8b482e8ef9c7b">인디스쿨 후원레터</a>
+        </div>
+    </body>
+</html>
